@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Oswald", sans-serif;
+}
+body {
+  background-image: linear-gradient(to bottom, #1a1d24, #2d303b);
+  color: #fff;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+a {
+  color: inherit;
+  transition: color 0.5s;
+}
+.nav {
+  max-width: 80rem;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.nav:hover {
+  pointer-events: auto;
+}
+.sm-header {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  pointer-events: auto;
+  letter-spacing: 0.5px;
+}
+.line {
+  width: 15rem;
+  height: 3px;
+  background-color: #fff;
+  margin-left: 2rem;
+  margin-right: auto;
+  transform: scaleX(0.2);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+.nav:hover .line {
+  transform: scaleX(1);
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  margin-inline: 2.5rem;
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+.nav-item:nth-child(odd) {
+  transform: translateY(5rem);
+}
+.nav-item:nth-child(even) {
+  transform: translateY(-5rem);
+}
+.nav:hover .nav-item {
+  opacity: 1;
+  transform: translateY(0);
+}
+.nav-link {
+  font-size: 3.6rem;
+  transition: color 0.5s;
+  white-space: nowrap;
+}
+.nav-link i {
+  transition: transform 0.5s;
+}
+.nav-link:hover i.fa-facebook-f {
+  color: #3b5998;
+  transform: scaleX(1.2);
+}
+.nav-link:hover i.fa-linkedin-in {
+color: #0077b5;
+transform: scaleX(1.2);
+}
+.nav-link:hover i.fa-instagram {
+  color: #c938bd;
+  transform: rotate(360deg);
+}
