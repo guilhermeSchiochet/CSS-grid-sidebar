@@ -1,2 +1,10 @@
 # CSS-grid-sidebar
-A simple web page project with a navigation menu displaying social media icons. Built with HTML and CSS without external libraries or frameworks. The aim is to practice basic HTML/CSS concepts and create a responsive, styled navigation menu with social media icons.
+
+
+<p align="center">
+	<img width="1000" height="500" src="src\assets\operation.gif">
+</p>
+
+This project was inspired by a video from the Instagram user "juliocodes". As someone who had never worked with CSS and HTML before, I found it to be a great starting point to practice my skills and learn more about web development.
+
+The project consists of a simple navigation bar featuring icons for popular social media platforms. It was developed using pure HTML and CSS, without the use of external frameworks or libraries. The main goal was to practice basic concepts of HTML and CSS, as well as create a responsive and stylized navigation menu with social media icons.
