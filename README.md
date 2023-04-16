@@ -2,7 +2,7 @@
 
 
 <p align="center">
-	<img width="500" height="300" src="src\assets\operation.gif">
+	<img width="1000" height="500" src="src\assets\operation.gif">
 </p>
 
 This project was inspired by a video from the Instagram user "juliocodes". As someone who had never worked with CSS and HTML before, I found it to be a great starting point to practice my skills and learn more about web development.
